@@ -1,9 +1,15 @@
 import React from 'react';
+import Block from './components/Block';
+import Button from './components/Button';
+import Ball from './components/Ball';
 
 function App() {
   return (
-    <div className="App">
-      Hello world
+    <div className="container">
+      <Block value='1' animated />
+      <Block value='2' />
+      <Button />
+      <Ball />
     </div>
   );
 }
